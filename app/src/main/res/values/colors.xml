@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#FF0A0E1A</color>
+    <color name="neon_green">#FF39FF8F</color>
+    <color name="electric_blue">#FF4FC3F7</color>
+    <color name="vibrant_orange">#FFFF7043</color>
+    <color name="surface_dark">#FF111827</color>
+</resources>

@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.sqlite3
+*.db
+nutrivision.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+
+# Data & Raw Cache (Keep repository light)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+reports/nutrivision_report_*.pdf
+
+# IDEs & System
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-18T10:53:19.222040",
+  "dry_run": false,
+  "datasets": {
+    "batthulavinay/indian-food-nutrition": {
+      "dataset_name": "Indian Food Nutrition",
+      "files_count": 1,
+      "rows_processed": 1014,
+      "rows_imported": 0,
+      "rows_updated": 1014,
+      "duplicates": 1014,
+      "warnings": 0,
+      "mapped_columns": [
+        "food_name",
+        "calories",
+        "carbohydrates_g",
+        "protein_g",
+        "fat_g",
+        "sugar_g",
+        "fiber_g",
+        "sodium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "vitamin_c_mg",
+        "folate_mcg"
+      ],
+      "unmapped_columns": []
+    },
+    "adilshamim8/daily-food-and-nutrition-dataset": {
+      "dataset_name": "Daily Food and Nutrition",
+      "files_count": 1,
+      "rows_processed": 645,
+      "rows_imported": 0,
+      "rows_updated": 645,
+      "duplicates": 645,
+      "warnings": 3,
+      "mapped_columns": [
+        "food_name",
+        "category",
+        "calories",
+        "protein_g",
+        "carbohydrates_g",
+        "fat_g",
+        "fiber_g",
+        "sugar_g",
+        "sodium_mg",
+        "cholesterol_mg"
+      ],
+      "unmapped_columns": [
+        "Water_Intake (ml)"
+      ]
+    }
+  },
+  "summary": {
+    "total_records_processed": 1659,
+    "total_records_inserted": 0,
+    "total_records_updated": 1659,
+    "total_duplicates_detected": 1659,
+    "validation_warnings": 3,
+    "curated_foods_registered": 1586
+  }
+}
